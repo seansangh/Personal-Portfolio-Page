@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">  
+<head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.arrow1').on('click', function(){
+        window.scrollTo(0,0);
+      
+      })
+      $('.arrow2').on('click', function(){
+        window.scrollBy(0,-window.innerHeight);
+      
+      })
+      $('.arrow3').on('click', function(){
+        window.scrollBy(0,window.innerHeight);
+      
+      })  
+    })
+  </script>
+  </head>
+<body>
+  <div id="main">
+<div class="head" id="welcome-section">
+   <nav><p class="nav" id="navbar"><a href="#twitter">Contact</a><a href="#projects">About</a><a href="#projects2">Work</a></p> </nav>
+  <div class="mid">
+  <h1>Hello, I am Sean.</h1>
+  <p class="desc">a web developer</p>
+  </div>
+  <i class="fa fa-star star1"></i>
+  <i class="fa fa-star star2"></i>    
+  <p class="twitter" id="twitter"><br /><br /><br /><button id="b3"><a href="https://twitter.com/sean13nay?lang=en"><i class="fa fa-twitter"></i> @sean13nay</a></button></p>
+</div>
+  <div id="projects">
+    <div id="p2">
+    <p class="project-title" id="project-title"> These are some of the projects that I completed. </p>
+    <div class="first" id="first">
+      <div class="col-xs-6">
+        <a href="https://codepen.io/seansangh/full/rQjGpm"><iframe src="https://codepen.io/seansangh/full/rQjGpm"></iframe></a>
+      </div>
+      <div class="col-xs-6">
+        <a href="https://codepen.io/seansangh/full/pQYybg"><iframe src="https://codepen.io/seansangh/full/pQYybg"></iframe></a>
+      </div>
+    </div>
+      <br />
+    <div class="second" id="second">
+      <div class="col-xs-6">
+        <a href="https://codepen.io/seansangh/full/PXYNeK"><iframe src="https://codepen.io/seansangh/full/PXYNeK"></iframe></a>
+      </div>
+      <div class="col-xs-6">
+        <a href="https://codepen.io/seansangh/full/pQYybg"><iframe src="https://codepen.io/seansangh/full/NEdEev"></iframe></a>
+      </div>      
+    </div>
+    </div>
+  </div>
+    <div id="projects2">
+      <div id="p3">
+      <p class="project-title2" id="project-title2"><button id="b1"><a href="https://github.com/seansangh" target="_blank" id="profile-link"><i class="fa fa-github"></i> Github profile page >></a></button>
+        <br /><br /><button id="b2"><a href="https://github.com/seansangh" target="_blank" id="aprofile-link"><i class="fa fa-codepen"></i> Codepen profile page >></a></button>
+      </p>
+      </div>
+  </div>
+    
+  <div class="top">
+    <div class="arrow1">
+    <p class="t1">
+      <i class="fa fa-angle-double-up"></i>
+    </p>
+    <i class="fa fa-circle c1"></i>
+    <p class="t2">
+      Top
+    </p>
+    </div>
+    <div class="arrow2">
+    <p class="t1">
+      <i class="fa fa-angle-up"></i>
+    </p>
+    <i class="fa fa-circle c1"></i>
+    <p class="t2">
+      Up
+    </p>
+    </div>
+    <div class="arrow3">
+    <p class="t1">
+      <i class="fa fa-angle-down"></i>
+    </p>
+    <i class="fa fa-circle c1"></i>
+    <p class="t6">
+      Down
+    </p>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
